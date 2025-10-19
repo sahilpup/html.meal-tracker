@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MEAL-TRACKER</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="login-page">
+    <h1>🔒 Admin Login</h1>
+    <div class="card">
+      <input type="password" id="admin-password" placeholder="Enter admin password">
+      <button id="login-btn">Login</button>
+      <p class="hint">Default password: <b>Sahilmuskan</b></p>
+      <p>You can share this site link — users without password will enter view-only mode.</p>
+    </div>
+  </div>
+
+  <div class="container" id="main-page" style="display: none;">
+    <h1>🏫 MEAL-TRACKER</h1>
+
+    <div class="admin-section">
+      <div class="card admin-only">
+        <h2>Add Student</h2>
+        <div class="input-row">
+          <input type="text" id="student-name" placeholder="Enter student name">
+          <button id="add-student">Add</button>
+        </div>
+        <ul id="student-list"></ul>
+      </div>
+
+      <div class="card admin-only">
+        <h2>Mark Attendance</h2>
+        <div class="input-row">
+          <input type="date" id="attendance-date">
+          <select id="meal-select">
+            <option value="Breakfast">Breakfast</option>
+            <option value="Lunch">Lunch</option>
+            <option value="Dinner">Dinner</option>
+          </select>
+        </div>
+        <div id="attendance-list"></div>
+        <button id="save-attendance">Save Attendance</button>
+      </div>
+
+      <div class="card">
+        <h2>Summary</h2>
+        <div id="summary">No data yet</div>
+      </div>
+
+      <div class="card">
+        <h2>Attendance History</h2>
+        <div id="attendance-history"></div>
+      </div>
+
+      <button class="danger admin-only" id="clear-data">Clear All Data</button>
+      <button class="logout" id="logout-btn">Logout</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

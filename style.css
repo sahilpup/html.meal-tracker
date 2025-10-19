@@ -1,0 +1,313 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background: #e6f7ff;
+  border-radius: 15px;
+  padding: 25px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+}
+
+h1 {
+  text-align: center;
+  color: #023373;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.6);
+}
+
+.card {
+  background: #023373;
+  color: white;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  color: #a3d9ff;
+  margin-bottom: 10px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input, select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex: 1;
+  outline: none;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #2c80b4;
+  transform: scale(1.03);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+ul li {
+  background: #eaf6ff;
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  padding: 4px 6px;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.attendance-item {
+  display: flex;
+  justify-content: space-between;
+  background: #eaf6ff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: black;
+}
+
+#summary {
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: #023373;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+.history-table th, .history-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.history-table th {
+  background-color: #3498db;
+  color: white;
+}
+
+.status-Ate {
+  color: green;
+  font-weight: bold;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background: #e6f7ff;
+  border-radius: 15px;
+  padding: 25px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+}
+
+h1 {
+  text-align: center;
+  color: #023373;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.6);
+}
+
+.card {
+  background: #023373;
+  color: white;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  color: #a3d9ff;
+  margin-bottom: 10px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input, select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex: 1;
+  outline: none;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #2c80b4;
+  transform: scale(1.03);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+ul li {
+  background: #eaf6ff;
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  padding: 4px 6px;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.attendance-item {
+  display: flex;
+  justify-content: space-between;
+  background: #eaf6ff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: black;
+}
+
+#summary {
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: #023373;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+.history-table th, .history-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.history-table th {
+  background-color: #3498db;
+  color: white;
+}
+
+.status-Ate {
+  color: green;
+  font-weight: bold;
+}
+
+.status-Skipped {
+  color: red;
+  font-weight: bold;
+}
+
+.danger {
+  background: #e74c3c;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.logout {
+  background: #ffcc00;
+  width: 100%;
+  margin-top: 10px;
+  color: #023373;
+  font-weight: bold;
+}
+
+.hint {
+  color: #023373;
+  font-size: 14px;
+}
+
+.status-Skipped {
+  color: red;
+  font-weight: bold;
+}
+
+.danger {
+  background: #e74c3c;
+  width: 100%;
+  margin-top: 20px;
+}
